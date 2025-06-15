@@ -36,6 +36,13 @@ const projects = [
     img: "images/Outlast the Storm (1).jpg",
     tags: ["C#", "Unity", "Github"],
     link: "outlastthestorm.html"
+  },
+  {
+    title: "Sustainaville",
+    desc: "A simulator, strategy game to balance between ensuring enough electricity, and keeping pollutions low.",
+    img: "images/sustainaville (1).png",
+    tags: ["C#", "Unity", "Github"],
+    link: "sustainaville.html"
   }
 ];
 
