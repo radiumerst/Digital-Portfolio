@@ -4,12 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Digital Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
   <header>
     <nav class="container">
-      <div class="logo">Portfolio</div>
+      <div class="logo">Wen Wei's Digital Portfolio</div>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
@@ -21,28 +21,42 @@
   </header>
 
   <section class="hero" id="home">
-    <h1>Lorem Ipsum</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    <a href="#projects" class="btn">See Work</a>
-  </section>
+  <div class="hero-gallery">
+    <img src="images/Hiroshima.jpg">
+    <img src="images/Mt Inari.jpg">
+    <img src="images/Fuji.jpg">
+  </div>
 
-  <section class="container" id="about">
-    <h2>About</h2>
-    <div class="about-wrap">
-      <img src="https://via.placeholder.com/180" alt="Profile">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac lacus quis massa tincidunt auctor.</p>
-    </div>
-  </section>
+  <h1>Foong Wen Wei</h1>
+  <p>A game developer.</p>
+  <a href="#projects" class="btn">See Work</a>
+</section>
+
+<section class="container" id="about">
+  <h2>About</h2>
+  <div class="about-wrap">
+    <p>
+      I am an aspiring game creator, wanting to share my love for games to the wider public. Looking to further improve my programming skills into other languages and hoping to learn designing skills on other game engines in order to make my game much more fun for others.
+      </p><br><p>
+      I am proficient in the Lua programming language on Roblox Studio, and is very keen in learning in furthering my skills by learning new languages such as C# and JavaScript, as well as working on my design skills for creating brand new games from scratch.
+      </p><br><p>
+      I have also used my video editing skills to the test by creating a corporate video with the guidance from my teacher-in-charge to create an appreciation video for the School's Advisory Committee for their support in the Skills Talent and Research Scholarship Programme.
+    </p>
+  </div>
+</section>
 
   <section class="container" id="skills">
     <h2>Skills</h2>
     <div class="skills-grid">
+      <div class="skill">C#</div>
+      <div class="skill">C++</div>
+      <div class="skill">OOP</div>
       <div class="skill">HTML</div>
       <div class="skill">CSS</div>
       <div class="skill">JavaScript</div>
       <div class="skill">Unity</div>
-      <div class="skill">C#</div>
-      <div class="skill">Git</div>
+      <div class="skill">Github</div>
+      <div class="skill">mySQL</div>
     </div>
   </section>
 
@@ -62,7 +76,7 @@
   </section>
 
   <footer>
-    © <span id="year"></span> Lorem Ipsum
+    © <span id="year"></span> Foong Wen Wei
   </footer>
 
   <script src="script.js" defer></script>

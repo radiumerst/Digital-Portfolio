@@ -24,25 +24,11 @@ themeToggle.addEventListener("click", () => {
 
 const projects = [
   {
-    title: "Lorem One",
-    desc: "Lorem ipsum dolor sit amet.",
-    img: "https://picsum.photos/400/300?random=11",
-    tags: ["HTML", "CSS"],
-    link: "#"
-  },
-  {
-    title: "Lorem Two",
-    desc: "Sed do eiusmod tempor incididunt.",
-    img: "https://picsum.photos/400/300?random=12",
-    tags: ["JavaScript"],
-    link: "#"
-  },
-  {
-    title: "Lorem Three",
-    desc: "Ut enim ad minim veniam.",
-    img: "https://picsum.photos/400/300?random=13",
-    tags: ["Responsive"],
-    link: "#"
+    title: "Orbit Beats",
+    desc: "A 4K rhythm game, introducing arcade-level fun in the comforts of your own home.",
+    img: "images/Orbit Beats Icon.jpg",
+    tags: ["C#", "Unity", "Gtthub"],
+    link: "orbitbeats.html"
   }
 ];
 
