@@ -27,8 +27,15 @@ const projects = [
     title: "Orbit Beats",
     desc: "A 4K rhythm game, introducing arcade-level fun in the comforts of your own home.",
     img: "images/Orbit Beats Icon.jpg",
-    tags: ["C#", "Unity", "Gtthub"],
+    tags: ["C#", "Unity", "Github"],
     link: "orbitbeats.html"
+  },
+  {
+    title: "Outlast the Storm",
+    desc: "An adventure game, a world where monsters roam the world once ruled by humans.",
+    img: "images/Outlast the Storm (1).jpg",
+    tags: ["C#", "Unity", "Github"],
+    link: "outlastthestorm.html"
   }
 ];
 

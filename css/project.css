@@ -103,11 +103,6 @@ nav {
   border: 0;
 }
 
-/* keep local video but hide until needed */
-.legacy-video {
-  display: none;
-}
-
 /* contributions */
 .contrib-section h2 {
   margin-bottom: 1rem;
